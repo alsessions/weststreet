@@ -1,14 +1,14 @@
 columnSuffix: null
-handle: price
+handle: priceLarge
 instructions: null
-name: Price
+name: 'Price (large)'
 searchable: false
 settings:
   currency: USD
   defaultValue: null
   max: null
   min: 0
-  showCurrency: false
+  showCurrency: true
   size: null
 translationKeyFormat: null
 translationMethod: none
