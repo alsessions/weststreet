@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 7aaad26b-fd73-4038-a3e5-53b41b6683a9 # Menu Section
+handle: menu
+maxAuthors: 1
+name: Menu
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  024375ab-589c-4361-9f22-e4d75204d0ec: # West Street Mini-Mart
+    enabledByDefault: true
+    hasUrls: true
+    template: menu/_entry.twig
+    uriFormat: 'menu/{slug}'
+structure:
+  maxLevels: null
+  uid: 7f4b2843-a92a-42c2-bd92-56b17fae4287
+type: structure
