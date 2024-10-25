@@ -20,12 +20,24 @@
     </head>
     <body class="ltr bg-gray-900">
         {% include '_partials/_nav.twig' %}
+        <div class="w-full  py-20" style="background:url('/assets/images/sub-sandwich.jpg');background-repeat:no-repeat;background-size:cover;background-position:center center;">
+            <div class="mx-auto py-6  md:py-10 bg-gray-900/60 max-w-96 md:max-w-2xl rounded-lg">
+            <h1 class="text-2xl md:text-3xl text-white font-bold text-center mb-8 leading-relaxed">
+                1601 West St.<br>Utica, NY 13501<br><br><a href="tel:9174025636">(917) 402-5636</a>
+            </h1>
+     
+      
+            </div>
+            </div>
 
         {% block content %}
-        <div class="min-h-screen mt-20 mx-auto prose prose-headings:text-green-300 prose-p:text-white max-w-none px-2">
-            <h1 class="text-5xl text-white font-bold mb-12  text-center">{{ entry.title }}</h1>
-
-            <div class="max-w-8xl grid md:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto px-4">
+        <section class="mt-20 max-w-6xl mx-auto prose md:prose-lg prose-p:text-white prose-headings:text-lime-500 px-4">
+            <h1>
+                Order Now
+              </h1>
+              <p>Add ordering buttons, links, etc.</p>
+        </section>
+            <div class="max-w-6xl grid md:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto px-4 mt-10">
 
                 {% set myEntryQuery = craft.entries().section('menu').limit(10) %}
                 {% set entries = myEntryQuery.all() %}
@@ -34,12 +46,12 @@
                 <div>
                    
                    
-                        <h2 class=" text-green-300 font-bold text-2xl md:text-4xl text-center bg-clip-border">{{ entry.title }}</h2>
+                        <h2 class=" text-lime-500 font-medium text-3xl md:text-4xl  mb-4 md:mb-6">{{ entry.title }}</h2>
                        
             
 
                         {% for block in entry.item.all() %}
-                        <div class="flex flex-wrap justify-between text-white not-prose px-4">
+                        <div class="flex flex-wrap justify-between text-white not-prose">
                             
                             <p>{{ block.title }}</p>
                             <p>{{ block.priceSmall | money }} {% if block.priceLarge | length %}/  {{ block.priceLarge | money }}{% endif %}</p>
@@ -51,5 +63,6 @@
             </div>
         </div>
         {% endblock %}
+        {% include '_partials/_footer.twig' %}
     </body>
 </html>

@@ -1,12 +1,22 @@
-dateModified: 1729710153
+dateModified: 1729881724
 email:
   fromEmail: fultonchain@gmail.com
   fromName: 'West Street Mini-Mart'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  assets:
+    hasUrls: true
+    name: Assets
+    settings:
+      path: /var/www/html/web/assets/images
+    type: craft\fs\Local
+    url: '@web/assets/images'
 meta:
   __names__:
     1a4d943a-19e1-4852-bb5f-6dbc77b4fc34: 'Price (large)' # Price (large)
+    1ea7a8d5-2482-496a-803d-cea497e4dd0b: About # About
     2db746d3-58af-43ef-8a84-d32b282b3e82: Item # Item
+    3d421dba-c01e-40a2-b9ad-4c39a95c3063: 'Site Images' # Site Images
     5e0e970b-b2b5-4182-a31d-86cdc6ac5ab4: Menu # Menu
     7aaad26b-fd73-4038-a3e5-53b41b6683a9: 'Menu Section' # Menu Section
     8cc232b7-7cba-4eb7-ae32-8cf92418eb6c: Contact # Contact
