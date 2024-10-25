@@ -37,7 +37,7 @@
               </h1>
               <p>Add ordering buttons, links, etc.</p>
         </section>
-            <div class="max-w-6xl grid md:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto px-4 mt-10">
+            <section class="max-w-6xl grid md:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto px-4 mt-10 min-h-screen">
 
                 {% set myEntryQuery = craft.entries().section('menu').limit(10) %}
                 {% set entries = myEntryQuery.all() %}
@@ -60,7 +60,7 @@
                  {% endfor %}
                 </div>
                 {% endfor %}
-            </div>
+            </section>
         </div>
         {% endblock %}
         {% include '_partials/_footer.twig' %}
