@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 179d9939-a1e1-460b-9ac7-8fd44d18526b # Text
+handle: homePage
+maxAuthors: 1
+name: 'Home Page'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  024375ab-589c-4361-9f22-e4d75204d0ec: # West Street Mini-Mart
+    enabledByDefault: true
+    hasUrls: true
+    template: index.twig
+    uriFormat: __home__
+type: single

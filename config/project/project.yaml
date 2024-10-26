@@ -1,4 +1,4 @@
-dateModified: 1729881724
+dateModified: 1729899833
 email:
   fromEmail: fultonchain@gmail.com
   fromName: 'West Street Mini-Mart'
@@ -27,6 +27,7 @@ meta:
     024375ab-589c-4361-9f22-e4d75204d0ec: 'West Street Mini-Mart' # West Street Mini-Mart
     b3f00ec9-eea3-41c8-81f7-d7aa37becb9d: 'Menu Index' # Menu Index
     b775f620-e1ac-4e5e-af04-d5e30236f06f: 'West Street Mini-Mart' # West Street Mini-Mart
+    da258016-b548-44a9-8611-155fb882a5ae: 'Home Page' # Home Page
     ed9eaa32-adc4-4f85-9ca2-15791f283ed9: Simple # Simple
 plugins:
   ckeditor:
