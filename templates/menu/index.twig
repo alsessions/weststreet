@@ -39,12 +39,12 @@
                 <div>
                    
                    
-                        <h2 class=" text-lime-500 font-medium text-3xl md:text-4xl  mb-4 md:mb-6">{{ entry.title }}</h2>
+                        <h2 class=" text-lime-500 font-medium text-3xl md:text-4xl underline underline-offset-8 decoration-dashed  mb-4 md:mb-6">{{ entry.title }}</h2>
                        
             
 
                         {% for block in entry.item.all() %}
-                        <div class="flex flex-wrap justify-between text-white not-prose">
+                        <div class="flex flex-wrap justify-between text-white not-prose leading-loose">
                             
                             <p>{{ block.title }}</p>
                             <p>{{ block.priceSmall | money }} {% if block.priceLarge | length %}/  {{ block.priceLarge | money }}{% endif %}</p>
