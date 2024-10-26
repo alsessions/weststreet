@@ -1,4 +1,4 @@
-dateModified: 1729899833
+dateModified: 1729907106
 email:
   fromEmail: fultonchain@gmail.com
   fromName: 'West Street Mini-Mart'
@@ -19,7 +19,6 @@ meta:
     3d421dba-c01e-40a2-b9ad-4c39a95c3063: 'Site Images' # Site Images
     5e0e970b-b2b5-4182-a31d-86cdc6ac5ab4: Menu # Menu
     7aaad26b-fd73-4038-a3e5-53b41b6683a9: 'Menu Section' # Menu Section
-    8cc232b7-7cba-4eb7-ae32-8cf92418eb6c: Contact # Contact
     14c30556-d0d6-401d-bdf3-ca19441e5ef9: 'Price (small)' # Price (small)
     43d913df-7e6a-4100-9dd0-29f41e1afdea: Text # Text
     179d9939-a1e1-460b-9ac7-8fd44d18526b: Text # Text
@@ -27,6 +26,8 @@ meta:
     024375ab-589c-4361-9f22-e4d75204d0ec: 'West Street Mini-Mart' # West Street Mini-Mart
     b3f00ec9-eea3-41c8-81f7-d7aa37becb9d: 'Menu Index' # Menu Index
     b775f620-e1ac-4e5e-af04-d5e30236f06f: 'West Street Mini-Mart' # West Street Mini-Mart
+    beda8b67-3d1e-4408-849c-974d403a3ebc: Subtitle # Subtitle
+    d80d45f3-c48d-45be-ae7c-46433ddba0e9: 'Contact Us' # Contact Us
     da258016-b548-44a9-8611-155fb882a5ae: 'Home Page' # Home Page
     ed9eaa32-adc4-4f85-9ca2-15791f283ed9: Simple # Simple
 plugins:

@@ -2080,6 +2080,11 @@ video {
   text-align: center;
 }
 
+.prose-h4\:text-lg :is(:where(h4):not(:where([class~="not-prose"],[class~="not-prose"] *))){
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .prose-h4\:text-white :is(:where(h4):not(:where([class~="not-prose"],[class~="not-prose"] *))){
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -2129,6 +2134,11 @@ video {
     padding-bottom: 5rem;
   }
 
+  .md\:py-32{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
   .md\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -2146,6 +2156,11 @@ video {
 
   .md\:text-lg{
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }

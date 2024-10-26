@@ -24,24 +24,9 @@
 </head>
 <body class="ltr bg-gray-900">
     {% include '_partials/_nav.twig' %}
-    <header class="w-full py-10 md:py-20" style="background:url('/assets/images/sub-sandwich.jpg');background-repeat:no-repeat;background-size:cover;background-position:center center;">
-        <div class="mx-auto py-4  md:py-10 bg-gray-900/60 max-w-96 md:max-w-2xl rounded-lg">
-        <h1 class="text-3xl md:text-5xl text-white font-bold text-center mb-4 md:mb-4 leading-relaxed">
-            {{ entry.title }}
-        </h1>
-        <div class="prose md:prose-2xl  prose-h4:text-white prose-h4:text-center">
-        {{ entry.text }}
-        </div>
-        <div class="mt-4 md:mt-6 mb-2 flex justify-center gap-6">
-        <a href="/" class="text-white text-center px-2 py-1 border border-gray-700  bg-green-800/80 font-medium hover:bg-black/50 rounded-sm md:text-lg">Order Link</a>
-        <a href="/" class="text-white text-center px-2 py-1 border border-gray-700  bg-green-800/80 font-medium hover:bg-black/50 rounded-sm md:text-lg">Menu Link</a>
-        </div>
- 
-  
-        </div>
-        </header>
+    {% include '_partials/_pageHeader.twig' %}
 
-        <section class="mt-20 max-w-6xl mx-auto prose md:prose-lg prose-p:text-white prose-headings:text-lime-500 px-4 min-h-screen">
+    <section class="mt-20 max-w-6xl mx-auto prose md:prose-lg prose-p:text-white prose-headings:text-lime-500 px-4 min-h-screen">
     
             <h1>
               Hit us up...
