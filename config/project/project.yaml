@@ -1,4 +1,4 @@
-dateModified: 1729907106
+dateModified: 1729912390
 email:
   fromEmail: fultonchain@gmail.com
   fromName: 'West Street Mini-Mart'
@@ -39,6 +39,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.2.0
 system:
   edition: solo
   live: true
