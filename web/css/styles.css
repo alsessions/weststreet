@@ -2143,6 +2143,16 @@ video {
   color: rgb(0 123 255 / var(--tw-text-opacity));
 }
 
+.hover\:text-lime-800:hover{
+  --tw-text-opacity: 1;
+  color: rgb(63 98 18 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .prose-headings\:text-lime-500 :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~="not-prose"],[class~="not-prose"] *))){
   --tw-text-opacity: 1;
   color: rgb(132 204 22 / var(--tw-text-opacity));
@@ -2235,6 +2245,11 @@ video {
   .md\:py-32{
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+
+  .md\:py-6{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 
   .md\:text-3xl{
