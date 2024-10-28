@@ -1,4 +1,4 @@
-dateModified: 1730136193
+dateModified: 1730143186
 email:
   fromEmail: fultonchain@gmail.com
   fromName: 'West Street Mini-Mart'
@@ -16,7 +16,9 @@ meta:
     1a4d943a-19e1-4852-bb5f-6dbc77b4fc34: 'Price (large)' # Price (large)
     1ea7a8d5-2482-496a-803d-cea497e4dd0b: About # About
     2db746d3-58af-43ef-8a84-d32b282b3e82: Item # Item
+    3c62e9ed-f72f-46bd-a90e-2e288b57db39: Item # Item
     3d421dba-c01e-40a2-b9ad-4c39a95c3063: 'Site Images' # Site Images
+    4a5855d5-11b9-49d6-bac2-6f11f9e02b3a: Subtitle # Subtitle
     5e0e970b-b2b5-4182-a31d-86cdc6ac5ab4: Menu # Menu
     7aaad26b-fd73-4038-a3e5-53b41b6683a9: 'Menu Section' # Menu Section
     14c30556-d0d6-401d-bdf3-ca19441e5ef9: 'Price (small)' # Price (small)
@@ -24,6 +26,7 @@ meta:
     179d9939-a1e1-460b-9ac7-8fd44d18526b: Text # Text
     6741bbf4-20a9-4560-9433-5f762a35f40f: Item # Item
     024375ab-589c-4361-9f22-e4d75204d0ec: 'West Street Mini-Mart' # West Street Mini-Mart
+    10521530-c3bb-40eb-90cf-481562cb8a77: 'Raw HTML' # Raw HTML
     b3f00ec9-eea3-41c8-81f7-d7aa37becb9d: 'Menu Index' # Menu Index
     b775f620-e1ac-4e5e-af04-d5e30236f06f: 'West Street Mini-Mart' # West Street Mini-Mart
     beda8b67-3d1e-4408-849c-974d403a3ebc: Subtitle # Subtitle
@@ -35,6 +38,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0.0
+  cp-field-inspect:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   expanded-singles:
     edition: standard
     enabled: true

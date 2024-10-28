@@ -46,13 +46,18 @@
                         {% for block in entry.item.all() %}
 
                         {% if block.text | length %}
-                            <div class="text-white prose prose-h4:text-white">
+                            <div class="text-white prose prose-h4:text-white prose-h2:text-lime-400 prose-h2:font-medium prose-h2:mt-4 prose-h2:mb-2">
+                                <h2>{{ block.menuSubtitle }}</h2>
+                                <div>
+                               
                         {{ block.text }}
+                                </div>
+                   
                             </div>
                         {% endif %}
                         <div class="flex flex-wrap justify-between text-white not-prose leading-loose">
                             
-                            <p>{{ block.title }}</p>
+                            <p>{{ block.menuItem }}</p>
                             <p>{{ block.priceSmall | money }} {% if block.priceLarge | length %}/  {{ block.priceLarge | money }}{% endif %}</p>
                       
                         </div>
