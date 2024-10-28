@@ -39,11 +39,17 @@
                 <div>
                    
                    
-                        <h2 class=" text-lime-500 font-medium text-3xl md:text-4xl underline underline-offset-8 decoration-dashed  mb-4 md:mb-6">{{ entry.title }}</h2>
-                       
-            
+                        <h2 class=" text-lime-500 font-medium text-3xl md:text-4xl border-b border-lime-500  mb-4 md:mb-6">{{ entry.title }}</h2>
+                   
+                  
 
                         {% for block in entry.item.all() %}
+
+                        {% if block.text | length %}
+                            <div class="text-white prose prose-h4:text-white">
+                        {{ block.text }}
+                            </div>
+                        {% endif %}
                         <div class="flex flex-wrap justify-between text-white not-prose leading-loose">
                             
                             <p>{{ block.title }}</p>

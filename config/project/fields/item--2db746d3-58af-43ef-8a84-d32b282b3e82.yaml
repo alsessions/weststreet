@@ -5,16 +5,20 @@ name: Item
 searchable: false
 settings:
   createButtonLabel: null
+  defaultTableColumns:
+    - 'field:43d913df-7e6a-4100-9dd0-29f41e1afdea' # Text
+    - 'field:14c30556-d0d6-401d-bdf3-ca19441e5ef9' # Price (small)
+    - 'field:1a4d943a-19e1-4852-bb5f-6dbc77b4fc34' # Price (large)
   entryTypes:
     - 6741bbf4-20a9-4560-9433-5f762a35f40f # Item
-  includeTableView: false
+  includeTableView: true
   maxEntries: null
   minEntries: null
   pageSize: 50
   propagationKeyFormat: null
   propagationMethod: all
   showCardsInGrid: false
-  viewMode: cards
+  viewMode: index
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix
