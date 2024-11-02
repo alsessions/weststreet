@@ -1329,6 +1329,10 @@ video {
   margin-left: 1rem;
 }
 
+.mr-2{
+  margin-right: 0.5rem;
+}
+
 .mt-10{
   margin-top: 2.5rem;
 }
@@ -1339,18 +1343,6 @@ video {
 
 .mt-4{
   margin-top: 1rem;
-}
-
-.mr-4{
-  margin-right: 1rem;
-}
-
-.mr-2{
-  margin-right: 0.5rem;
-}
-
-.mr-1{
-  margin-right: 0.25rem;
 }
 
 .block{
@@ -1373,8 +1365,7 @@ video {
   display: none;
 }
 
-.size-6{
-  width: 1.5rem;
+.h-6{
   height: 1.5rem;
 }
 
@@ -1386,14 +1377,6 @@ video {
   height: 100%;
 }
 
-.h-4{
-  height: 1rem;
-}
-
-.h-6{
-  height: 1.5rem;
-}
-
 .min-h-\[70px\]{
   min-height: 70px;
 }
@@ -1402,16 +1385,12 @@ video {
   min-height: 100vh;
 }
 
-.w-full{
-  width: 100%;
-}
-
-.w-4{
-  width: 1rem;
-}
-
 .w-6{
   width: 1.5rem;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .max-w-6xl{
@@ -1475,14 +1454,6 @@ video {
   border-radius: 0.375rem;
 }
 
-.rounded-sm{
-  border-radius: 0.125rem;
-}
-
-.rounded-lg{
-  border-radius: 0.5rem;
-}
-
 .border{
   border-width: 1px;
 }
@@ -1512,11 +1483,6 @@ video {
 .border-lime-500{
   --tw-border-opacity: 1;
   border-color: rgb(132 204 22 / var(--tw-border-opacity));
-}
-
-.border-gray-400{
-  --tw-border-opacity: 1;
-  border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
 .bg-black{
@@ -1563,31 +1529,26 @@ video {
   padding-bottom: 2.5rem;
 }
 
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.px-1{
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pb-10{
   padding-bottom: 2.5rem;
 }
 
-.pt-6{
-  padding-top: 1.5rem;
-}
-
 .pt-1{
   padding-top: 0.25rem;
+}
+
+.pt-6{
+  padding-top: 1.5rem;
 }
 
 .text-center{
@@ -2181,11 +2142,6 @@ video {
   }
 }
 
-.hover\:border-gray-400:hover{
-  --tw-border-opacity: 1;
-  border-color: rgb(156 163 175 / var(--tw-border-opacity));
-}
-
 .hover\:border-gray-500:hover{
   --tw-border-opacity: 1;
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
@@ -2302,6 +2258,11 @@ video {
   .md\:text-5xl{
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .md\:text-xl{
