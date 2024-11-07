@@ -1,4 +1,4 @@
-dateModified: 1730143186
+dateModified: 1731006600
 email:
   fromEmail: fultonchain@gmail.com
   fromName: 'West Street Mini-Mart'
@@ -50,6 +50,48 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.2.0
+    settings:
+      description: 'Welcome to West Street Mini Market, your neighborhood go-to spot for deli sandwiches, gyro and more. Located at 1601 West St. in Utica, NY 13501, we serve the Mohawk Valley and Central New York with Halal food.'
+      facebookAppId: ''
+      metaTemplate: ''
+      removeAlternateUrls: ''
+      robots:
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+      robotsTxt: "{# Sitemap URL #}\r\nSitemap: {{ url(seo.sitemapName ~ '.xml') }}\r\n\r\n{# Disallows #}\r\n{% if craft.app.config.env != 'production' %}\r\n\r\n{# Disallow access to everything when NOT in production #}\r\nUser-agent: *\r\nDisallow: /\r\n\r\n{% else %}\r\n\r\n{# Disallow access to cpresources/ when live #}\r\nUser-agent: *\r\nDisallow: /cpresources/\r\n\r\n{% endif %}"
+      sitemapLimit: '1000'
+      sitemapName: sitemap
+      socialImage:
+        - '234'
+      title:
+        -
+          __assoc__:
+            -
+              - key
+              - '1'
+            -
+              - locked
+              - '0'
+            -
+              - template
+              - '{title}'
+        -
+          __assoc__:
+            -
+              - key
+              - '2'
+            -
+              - locked
+              - '1'
+            -
+              - template
+              - ' - {{ siteName }}'
+      titleSuffix: null
+      twitterHandle: ''
 system:
   edition: solo
   live: true
