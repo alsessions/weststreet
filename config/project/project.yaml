@@ -1,4 +1,4 @@
-dateModified: 1731006600
+dateModified: 1732120516
 email:
   fromEmail: fultonchain@gmail.com
   fromName: 'West Street Mini-Mart'
@@ -96,7 +96,7 @@ system:
   edition: solo
   live: true
   name: 'West Street Mini-Mart'
-  schemaVersion: 5.3.0.2
+  schemaVersion: 5.5.0.0
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

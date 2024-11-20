@@ -1,14 +1,24 @@
 <header class="w-full py-10 md:py-32" style="background:url('/assets/images/sub-sandwich.jpg');background-repeat:no-repeat;background-size:cover;background-position:center center;">
-    <div class="mx-auto py-4  md:py-10  backdrop-blur-sm  max-w-xl md:max-w-2xl">
-    <h1 class="text-3xl md:text-5xl text-white font-bold text-center mb-4 md:mb-4 leading-relaxed">
+    <div class="mx-auto py-4  md:py-10  backdrop-blur-sm backdrop-brightness-75  max-w-xl md:max-w-3xl rounded">
+    <h1 class="text-4xl md:text-6xl text-green-200 font-bold text-center mb-4 md:mb-4 leading-relaxed">
         {{ entry.title }}
     </h1>
-    <div class="prose md:prose-2xl  prose-h4:text-white prose-h4:text-center prose-h4:text-2xl">
+    <div class="prose md:prose-xl  prose-h4:text-green-200 prose-h4:text-center prose-h4:text-3xl">
     <h4>{{ entry.subtitle }}</h4>
     </div>
-    <div class="mt-4 md:mt-6 mb-2 flex justify-center gap-6">
-    <a href="/" class="text-white text-center px-2 py-1 border-2 border-green-900  bg-green-800/70 font-medium hover:bg-black/50 rounded md:text-xl">Order Now</a>
-    <a href="/menu" class="text-white text-center px-2 py-1 border border-green-900  bg-green-800/70 font-medium hover:bg-black/50 rounded md:text-xl">View Menu</a>
+    <div class="mt-6 md:mt-8 mb-2 flex flex-wrap justify-center gap-6">
+
+        <button class="px-3 py-2 bg-green-900 rounded cursor-pointer hover:bg-red-700 transition-colors duration-300 flex justify-center items-center">
+            <a href="https://www.doordash.com/store/west-st-mini-market-utica-31758857/?srsltid=AfmBOopCczIHcWf4nnoWkbRoiyVOeaKE39ijqHchkRMVGwIfoQAz5McC" target="_blank"><img src="/assets/images/doordash-seeklogo2.png" alt="DoorDash logo" class="h-6 w-auto"></a>
+         </button>
+
+        <button class="px-3 py-2  bg-green-900 rounded cursor-pointer hover:bg-red-700 transition-colors duration-300 flex justify-center items-center">
+    <a href="/menu" class="text-red-600 hover:text-white font-bold tracking-wider uppercase text-2xl">View Menu</a>
+        </button>
+
+
+
+
     </div>
 
 
