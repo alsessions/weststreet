@@ -1413,6 +1413,10 @@ video {
   height: 1rem;
 }
 
+.h-5{
+  height: 1.25rem;
+}
+
 .min-h-\[70px\]{
   min-height: 70px;
 }
